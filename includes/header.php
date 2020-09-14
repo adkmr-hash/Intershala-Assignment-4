@@ -10,7 +10,7 @@
 		</div>
 		<div class="collapse navbar-collapse" id="mynavBar">
 			<?php
-				if(isset($_SESSION["email_id"])){ 
+				if(isset($_SESSION["email"])){ 
 			?>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>

@@ -1,4 +1,4 @@
-<?php
+    <?php
     require './includes/common.php';
     // get the item_id and add to cart
     $item_id = $_GET["id"];

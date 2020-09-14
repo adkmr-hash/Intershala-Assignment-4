@@ -20,7 +20,9 @@
 			require "./includes/header.php";
 		?>
 		<div class="container panel-margin">
-			<div class="panel panel-default">
+			<div class="row">
+                            <div class="col-sm-4 col-sm-offset-4">
+                                <div class="panel panel-default">
 				<div class="panel-heading">
 					<h3 class="panel-title">Login to make purchase</h3>
 				</div>
@@ -38,6 +40,8 @@
 				<div class="panel-footer">
 					Don't have an account?Click <a href="signup.php">here</a> to create one.
 				</div>
+                                </div>
+                            </div>
 			</div>
 		</div>
 		<?php

@@ -16,14 +16,14 @@ and open the template in the editor.
      color: #f8f8f8;
      background-image: url("img1/intro-bg_1.jpg");
      background-postion:center;
-     background-repeat: no repeat;
+     background-repeat: no-repeat;
      background-size: cover;
 }
 #banner_content{
  position: relative;
  padding-top: 6%;
  padding-bottom: 6%;
- 
+ overflow: hidden;
  margin: 12% auto;
  background-color: rgba(0, 0, 0, 0.7);
  max-width: 660px;

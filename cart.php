@@ -1,7 +1,7 @@
 <?php
     require './includes/common.php';
     // check if logged in
-    if(!isset($_SESSION["email_id"])){
+    if(!isset($_SESSION["email"])){
         header("location: login.php");
     }
 ?>

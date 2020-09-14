@@ -1,7 +1,7 @@
 <?php
     require "./includes/common.php";
     // get details
-    $email = mysqli_real_escape_string($conn, $_POST["email_id"]);
+    $email = mysqli_real_escape_string($conn, $_POST["email"]);
     $name = mysqli_real_escape_string($conn, $_POST["name"]);
     $password = mysqli_real_escape_string($conn, $_POST["password"]);
     $contact = mysqli_real_escape_string($conn, $_POST["contact"]);

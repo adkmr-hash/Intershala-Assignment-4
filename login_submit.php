@@ -11,7 +11,7 @@
         echo "User account does not exists.";
     }else{
         $row = mysqli_fetch_array($query_result);
-        $_SESSION["email_id"] = $email;
+        $_SESSION["email"] = $email;
         $_SESSION["id"] = $row["id"];
 
         // redirect to products page

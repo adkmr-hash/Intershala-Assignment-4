@@ -1,7 +1,7 @@
 <?php
 	require './includes/common.php';
 	// check  if logged in
-	if(!isset($_SESSION["email_id"])){
+	if(!isset($_SESSION["email"])){
 		header("location: index.php");
 	}
 ?>
@@ -23,12 +23,15 @@
 			require './includes/header.php';
 		?>
 		<div class="container panel-margin">
+                    <div class="row">
+                    
+                    <div class="col-sm-4 col-sm-offset-4">
 			<div class="panel panel-default">
 				<div class="panel-heading">
 					<h2 class="panel-title">Change Password</h2>
 				</div>
 				<div class="panel-body">
-					<form actiom="settings_script.php" method="post">
+					<form action="settings_script.php" method="post">
 						<div class="form-group">
 							<input type="password" class="form-control" name="old_pass" placeholder="Old Password" required>
 						</div>
@@ -42,7 +45,11 @@
 					</form>
 				</div>
 			</div>
+                            
 		</div>
+                </div>
+                </div>
+                    
 		<?php
 			require './includes/footer.php';
 		?>

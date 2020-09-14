@@ -1,12 +1,12 @@
 <?php
 	require './includes/common.php';
 	// check  if logged in
-	if(!isset($_SESSION["email_id"])){
+	if(!isset($_SESSION["email"])){
 		header("location: index.php");
     }else{
         // get user details
         $user_id = $_SESSION["id"];
-        $email = $_SESSION["email_id"];
+        $email = $_SESSION["email"];
 
         // get the newly typed password
         $new_password = md5(mysqli_real_escape_string($conn, $_POST["new_pass"]));

@@ -22,6 +22,8 @@
 			require "./includes/header.php";
 		?>
 		<div class="container panel-margin">
+                    <div class="row">
+                        <div class="col-sm-4 col-sm-offset-4">
 			<div class="panel panel-default">
 				<div class="panel-heading">
 					<h2 class="panel-title">SignUp</h2>
@@ -54,6 +56,8 @@
 				</div>
 			</div>
 		</div>
+                    </div>
+                </div>
 		<?php
 			require "./includes/footer.php";
 		?>

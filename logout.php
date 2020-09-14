@@ -2,7 +2,7 @@
 	require './includes/common.php';
 	
 	// destroy the session if present
-	if(!isset($_SESSION["email_id"])){
+	if(!isset($_SESSION["email"])){
 		header("location: index.php");
 	}else{
 		session_unset();

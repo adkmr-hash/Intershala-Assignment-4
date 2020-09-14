@@ -1,6 +1,6 @@
 <?php
 	// if already logged in, go to products page
-	if(isset($_SESSION["email_id"])){
+	if(isset($_SESSION["email"])){
 		header("location: products.php");
 	}
 
@@ -24,13 +24,13 @@
 		<?php
 			require './includes/header.php';
 		?>
-		<div id="banner-image">
-			
+		<div id="banner_image">
+                    <div class="container"
                             <center>
 				<div id="banner_content">
                                     
 					<h1>We sell lifestyle</h1>
-					<p>Flat 40% OFF</p>
+					<p>Flat 40% OFF on Premium Brands</p>
                             
                                     
 					<a href="products.php">
